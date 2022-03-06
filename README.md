@@ -26,6 +26,9 @@ rascunho abaixo:
 
 Para adaptar essas informações para codigo, foi pensado a seguinte solução:
 ```
+    dist = None
+    X = 0
+    Y = 0
     for c in range(len(matriz)):
         x = matriz[c][0] - ponto[0]
         y = matriz[c][1] - ponto[1]
